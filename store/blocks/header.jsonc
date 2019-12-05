@@ -48,7 +48,7 @@
     "header-row#main-mobile": {
         "children": [
             "logo",
-            "header-space",
+            "header-spacer",
             "minicart",
             "login"
         ],
