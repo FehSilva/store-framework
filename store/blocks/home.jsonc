@@ -16,8 +16,7 @@
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
-      "blockClass": "vintage",
-      "blockClass": "metal"
+      "blockClass": "vintage"
     }
   },
   "info-card#button-right": {
