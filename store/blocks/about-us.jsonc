@@ -2,8 +2,7 @@
     "store.custom#about-us": {
         "blocks": [
             "flex-layout.row#about-us",
-            "tab-layout#home",
-            "iframe"
+            "tab-layout#home"
         ]
     },
     "tab-layout#home": {
@@ -27,7 +26,7 @@
     },
     "tab-list.item#home2": {
         "props": {
-            "tabId": "instagram",
+            "tabId": "electronics",
             "label": "Instagram"
         }
     },
@@ -50,7 +49,7 @@
             "iframe"
         ],
         "props": {
-            "tabId": "instagram"
+            "tabId": "electronics"
         }
     },
     "rich-text#home1": {
