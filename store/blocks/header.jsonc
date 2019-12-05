@@ -14,7 +14,15 @@
     "header-layout.desktop": {
         "children": [
             "header-row#notification",
-            "header-row#main"
+            "header-row#main",
+            "header-row#menu"
+        ]
+    },
+    "header-row#menu": {
+        "children": [
+            "header-spacer",
+            "vtex.menu@2.x:menu#categories",
+            "header-spacer"
         ]
     },
     "header-layout.mobile": {
@@ -50,7 +58,8 @@
             "logo",
             "header-spacer",
             "minicart",
-            "login"
+            "login",
+            "drawer"
         ],
         "props": {
             "sticky": true,
@@ -81,5 +90,20 @@
             "text": "**Free Shipping on orders over $50**",
             "textPosition": "CENTER"
         }
+    },
+    "vtex.menu@2.x:menu#categories": {
+        "children": [
+            "menu-item#major-appliances",
+            "menu-item#small-appliances",
+            "menu-item#electronics"
+        ],
+        "props": {
+            "orientation": "horizontal"
+        }
+    },
+    "vtex.menu@2.x:submenu#major": {
+        "children": [
+            "vtex.menu@2.x:menu#major"
+        ]
     }
 }
