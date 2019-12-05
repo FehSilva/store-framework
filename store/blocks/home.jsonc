@@ -1,18 +1,11 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text",
-      "info-card#padrao",
-      "info-card#blueman"
+      "info-card#button-left",
+      "info-card#button-right"
     ]
   },
-  "rich-text": {
-    "props": {
-      "text": "*Hello, World!*",
-      "textPosition": "RIGHT"
-    }
-  },
-  "info-card#padrao": {
+  "info-card#button-left": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "right",
@@ -22,20 +15,21 @@
       "callToActionMode": "button",
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
+      "textAlignment": "center",
+      "blockClass": "left"
     }
   },
-  "info-card#blueman": {
+  "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://blueman.sintesesolucoes.com.br/SinB2B/Imagens/BlueMan/Login.jpg",
-      "headline": "Vintage Pink",
-      "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+      "headline": "Shining chrome",
+      "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
       "callToActionMode": "link",
-      "callToActionText": "Veja mais",
+      "callToActionText": "Go to Collection",
       "callToActionUrl": "/sale/d",
-      "textAlignment": "top"
+      "textAlignment": "center"
     }
   }
 }
