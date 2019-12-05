@@ -32,10 +32,10 @@
       "imageUrl": "https://blueman.sintesesolucoes.com.br/SinB2B/Imagens/BlueMan/Login.jpg",
       "headline": "Vintage Pink",
       "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
-      "callToActionMode": "button",
-      "callToActionText": "Explore",
+      "callToActionMode": "link",
+      "callToActionText": "Veja mais",
       "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
+      "textAlignment": "top"
     }
   }
 }
